@@ -1,116 +1,81 @@
-# Trợ Lý Máy Tính
+<p align="center">
+  <img src="assets/logo.png" width="96" alt="Logo Trợ Lý Máy Tính">
+</p>
 
-**Bộ công cụ tất cả trong một cho Windows — cài phần mềm, tinh chỉnh, dọn dẹp, sửa lỗi và truy cập nhanh các tiện ích.**
+# Trợ Lý Máy Tính · v0.1.0
 
-> Trạng thái: đang lập kế hoạch. Tài liệu này mô tả định hướng dự án; repository GitHub chưa được tạo; chưa có mã nguồn ứng dụng hoặc bản cài đặt. Toàn bộ chức năng bên dưới là dự kiến.
+**Khởi đầu bộ công cụ Windows.**
 
-## Giới thiệu
+Ứng dụng desktop **C# / WPF** giúp tập trung công cụ hỗ trợ Windows vào một nơi. Tác giả: **Triết Võ**. Giao diện **Tiếng Việt / English**, **Sáng / Tối**. Bản này có **8 ứng dụng**.
 
-Trợ Lý Máy Tính hướng tới một ứng dụng C# dành cho người dùng Việt Nam và quốc tế, hỗ trợ giao diện tiếng Việt và tiếng Anh. Ứng dụng dễ dùng cho người dùng phổ thông và có chế độ nâng cao dành cho kỹ thuật viên. Ứng dụng hỗ trợ thiết lập máy mới, bảo trì Windows và tổ chức các công cụ thường dùng.
+> Đây là tài liệu cho **mã nguồn v0.1.0**, không phải thông báo đã phát hành EXE ổn định. Chưa có kết quả build C#, chạy WPF hoặc kiểm thử Windows được xác nhận trong môi trường biên soạn. Các chức năng bên dưới mô tả phần đã viết mã và giới hạn tương ứng.
 
-- **Tên ứng dụng:** Trợ Lý Máy Tính
-- **Tên repository dự kiến:** `tro-ly-may-tinh`
-- **Ngôn ngữ README:** Tiếng Việt
-- **Ngôn ngữ giao diện dự kiến:** Tiếng Việt và tiếng Anh
-- **Tác giả khởi xướng:** Triết Võ
-- **Tài khoản GitHub:** [trietpko2002](https://github.com/trietpko2002)
-- **Công nghệ dự kiến:** C#, WPF, .NET, MVVM
-- **Nền tảng mục tiêu:** Windows 11; các phiên bản Windows khác sẽ được xác định sau khi kiểm thử.
+![Tóm tắt tính năng v0.1.0](assets/overview.png)
 
-## Các mô-đun dự kiến
+*Ảnh minh họa nội dung phiên bản; không phải ảnh chụp ứng dụng đang chạy. Logo được dùng thống nhất cho bộ tài liệu lịch sử.*
 
-| Mô-đun | Chức năng |
+## Điểm đáng chú ý của phiên bản
+
+| Hạng mục | Nội dung |
 | --- | --- |
-| Tổng quan | Cấu hình máy, phiên bản Windows, dung lượng ổ đĩa và trạng thái hệ thống |
-| Phần mềm | Cài theo danh mục, cài hàng loạt, kiểm tra phiên bản, cập nhật và gỡ phần mềm |
-| Ngôn ngữ và bộ gõ | Tiện ích theo ngôn ngữ; với tiếng Việt, hỗ trợ cài bộ gõ và hướng dẫn Telex/VNI, Unicode |
-| Thiết lập máy mới | Chọn bộ phần mềm và cấu hình theo nhu cầu |
-| Tinh chỉnh | Explorer, thanh tác vụ, giao diện, thông báo, nguồn điện và khởi động |
-| Dọn dẹp | Quét file tạm, cache được hỗ trợ, thùng rác; xem trước trước khi xóa |
-| Phân tích dung lượng | Tìm file lớn, thư mục lớn và file trùng |
-| Sửa chữa | Tích hợp công cụ kiểm tra, sửa lỗi hệ thống và mạng |
-| Driver | Xem thông tin thiết bị, sao lưu và khôi phục driver |
-| Sao lưu | Lưu cấu hình, lịch sử thay đổi và hỗ trợ khôi phục |
-| Windows | Chọn ISO, đọc phiên bản và chuẩn bị triển khai Windows |
-| AIO | Truy cập công cụ Windows, tiện ích portable, tìm kiếm và yêu thích |
-| Tự động hóa | Lưu quy trình cài đặt và bảo trì để sử dụng lại |
-| Nhật ký | Tiến trình, kết quả, lỗi và báo cáo thao tác |
+| **Tổng quan cơ bản** | Hiển thị tên máy, Windows, kiến trúc tiến trình và dung lượng trống ổ hệ thống. |
+| **Cài phần mềm** | Tìm, chọn nhiều ứng dụng và gọi WinGet tuần tự; ghi kết quả từng gói. Danh mục gồm UniKey, 7-Zip, Firefox, VLC, Notepad++, PowerToys, VS Code và SumatraPDF. |
+| **Dọn file tạm** | Quét Temp của tài khoản hiện tại, chỉ đề xuất file không sửa hơn 7 ngày; xem và xác nhận trước khi xóa. |
+| **Tinh chỉnh Explorer** | Bật hiển thị đuôi file và file ẩn thông thường, lưu giá trị trước khi đổi để có thể khôi phục. |
+| **Truy cập nhanh** | 12 lối tắt công cụ Windows, nhật ký thao tác và trang tác giả. |
+| **Cá nhân hóa và cập nhật** | Sáng/tối, Việt/Anh; kiểm tra GitHub Releases theo SemVer và chọn gói theo kiến trúc. Bản một EXE kiểm tra SHA-256, thông tin PE và phiên bản trước khi thay file. |
 
-## Giao diện và trải nghiệm
+## Bắt đầu sử dụng
 
-- Cho phép chọn tiếng Việt hoặc tiếng Anh trong Cài đặt; lưu lựa chọn để dùng cho các lần mở sau.
-- Nội dung dễ hiểu, hiển thị đầy đủ dấu tiếng Việt và hỗ trợ thay đổi kích thước màn hình.
-- Chế độ sáng/tối và điều hướng bằng bàn phím.
-- Trang chủ có các thao tác thường dùng và ô tìm kiếm.
-- Chế độ cơ bản và chế độ kỹ thuật viên.
-- Mỗi phần mềm hiển thị biểu tượng, mô tả, nhà phát hành và phiên bản đã cài.
-- Các nút Cài đặt, Mở và Cập nhật thay đổi theo trạng thái thực tế.
-- Trang Giới thiệu hiển thị tác giả, phiên bản, liên kết hỗ trợ và giấy phép thành phần.
+1. Xem Tổng quan và chọn ngôn ngữ, giao diện trong Cài đặt.
+2. Mở Cài phần mềm, tìm gói, chọn mục và đọc kết quả cài từng ứng dụng.
+3. Với Dọn dẹp hoặc Tinh chỉnh, xem danh sách thay đổi trước khi xác nhận.
 
-## Thiết kế cập nhật GitHub
+Các thao tác cài gói, bảo trì hoặc thay đổi Windows có thể yêu cầu quyền quản trị. Quyền và xác nhận được xử lý theo thao tác; không suy ra đã cài thành công chỉ từ việc đã chọn gói. Đọc kết quả và nhật ký sau khi chạy.
 
-Bộ cập nhật ứng dụng sẽ đọc GitHub Releases của repository chính thức. Đây là chức năng dự kiến, chưa được triển khai.
+## Yêu cầu và cách build
 
-1. So sánh phiên bản theo Semantic Versioning.
-2. Chỉ đề nghị cập nhật khi bản phát hành phù hợp mới hơn bản đang chạy.
-3. Phiên bản bằng hoặc thấp hơn không hiện lời mời cập nhật và không tự hạ phiên bản.
-4. Phân biệt kênh ổn định và thử nghiệm; bỏ qua bản nháp.
-5. Chọn đúng kiến trúc, kiểu đóng gói và yêu cầu hệ điều hành.
-6. Không có gói tương thích thì không tự tải.
-7. Khi lỗi mạng hoặc giới hạn API, hiển thị chưa thể kiểm tra; không khẳng định đang dùng bản mới nhất.
-8. Xác minh tính toàn vẹn và nguồn phát hành của gói cập nhật trước khi thực thi.
-9. Hỗ trợ thông báo, tự tải hoặc cài khi đóng app theo lựa chọn người dùng.
-10. Nếu cập nhật thất bại, giữ bản đang dùng khi có thể và ghi nhật ký.
+- Máy build chạy Windows có **.NET 10 SDK**, không chỉ .NET Runtime.
+- Cài ứng dụng qua WinGet cần **App Installer / WinGet** hoạt động và kết nối tới nguồn gói.
+- Lối tắt và provider hệ thống tùy phiên bản/edition Windows, phần cứng và chính sách máy.
+- Chọn kiến trúc x64 hoặc ARM64 cho ứng dụng; các công cụ triển khai, firmware và phần mềm bên ngoài có giới hạn riêng.
 
-Cập nhật phần mềm bên thứ ba dùng nguồn phù hợp với từng phần mềm, độc lập với bộ cập nhật Trợ Lý Máy Tính. Không lấy phiên bản của app để suy ra phiên bản của các phần mềm khác.
+1. Giải nén toàn bộ nguồn `TroLyMayTinh-CSharp-v0.1.0.zip` vào một thư mục mới.
+2. Chạy `Build.cmd` từ thư mục có `TroLyMayTinh.sln`.
+3. Script build, chạy các kiểm tra đi kèm và publish. Chỉ dùng file đầu ra khi toàn bộ bước yêu cầu thành công.
 
-## Nguyên tắc thao tác hệ thống
+```text
+artifacts/win-x64/TroLyMayTinh-win-x64.exe
+```
 
-- Chỉ yêu cầu quyền quản trị khi tác vụ cần.
-- Tinh chỉnh lưu giá trị trước đó để hoàn tác khi khả thi.
-- Dọn dẹp hiển thị phạm vi và danh sách trước khi xóa.
-- Thao tác phân vùng, boot và cài Windows phải có bước xem trước, xác nhận rõ ràng và kiểm thử riêng.
-- Không tự tắt cơ chế bảo vệ hệ thống hoặc chạy tối ưu không có mô tả.
-- Không đóng gói bộ cài, bộ gõ hoặc tiện ích bên thứ ba khi chưa đáp ứng giấy phép phân phối.
-- Chỉ dùng nguồn tải chính thức hoặc nguồn tin cậy đã được xác minh.
-- Không cung cấp công cụ vượt bản quyền hay bộ cài Windows chỉnh sửa không rõ nguồn.
+Build bản portable ARM64 trên PowerShell:
 
-## Lộ trình
+```powershell
+.\Build.ps1 -Runtime win-arm64
+```
 
-### Giai đoạn 1 — Nền tảng
+Phiên bản này có script publish portable; chưa có quy trình tạo Setup bằng Inno Setup như dòng v1.0 trở đi. Máy dùng EXE đã publish dạng self-contained không cần SDK.
 
-- [ ] Khởi tạo dự án C# WPF và cấu trúc MVVM.
-- [ ] Giao diện tiếng Việt và tiếng Anh, bộ chọn ngôn ngữ, điều hướng và trang Giới thiệu.
-- [ ] Tổng quan máy và kho công cụ truy cập nhanh.
-- [ ] Danh mục phần mềm, bộ gõ và hàng đợi cài đặt.
-- [ ] Kiểm tra cập nhật GitHub theo đúng phiên bản và kiến trúc.
-- [ ] Nhật ký, tiến trình và xử lý lỗi.
+Nếu lỗi, giữ các dòng lỗi đầu tiên của `dotnet build`, tên file và số dòng. Đọc tài liệu kiểm tra trong nguồn và chạy lại build từ thư mục dự án.
 
-### Giai đoạn 2 — Bảo trì
+## Cập nhật qua GitHub
 
-- [ ] Dọn dẹp có xem trước.
-- [ ] Tinh chỉnh có hoàn tác.
-- [ ] Công cụ sửa chữa Windows và mạng.
-- [ ] Sao lưu cấu hình và driver.
-- [ ] Quy trình thiết lập máy mới.
+Ứng dụng so sánh phiên bản theo **SemVer**; phiên bản bằng hoặc thấp hơn không được mời cập nhật. Cần cấu hình đúng owner/repository trong `UpdateService.cs`, tạo Release thật và đính kèm gói đúng kiến trúc, tên file, phiên bản và SHA-256 digest. Nếu thiếu gói hoặc không kiểm tra được, không coi đó là bằng chứng đang dùng bản mới nhất.
 
-### Giai đoạn 3 — Triển khai
+Asset portable dùng tên `TroLyMayTinh-win-x64.exe` hoặc `TroLyMayTinh-win-arm64.exe`. Tải/cài cập nhật cần thao tác xác nhận. Upload README hoặc artifact Actions không tự tạo Release.
 
-- [ ] Chọn ISO và đọc các bản Windows bên trong.
-- [ ] Kiểm tra điều kiện đĩa, phân vùng và khởi động.
-- [ ] Thiết kế môi trường triển khai và phương án phục hồi.
-- [ ] Kiểm thử cài Windows trên máy ảo trước khi hỗ trợ máy thật.
-- [ ] Tự động hóa và xuất báo cáo.
+## Phạm vi và giới hạn
 
-## Tải xuống và phát triển
+- Chưa có Windows Setup, WinPE, QEMU, driver hoặc runtime center.
+- Nhận diện ứng dụng qua registry có thể bỏ sót bản portable. Chưa có bộ cài Setup; script tạo bản portable.
+- Không đóng gói bộ cài bên thứ ba hoặc cấp lại bản quyền phần mềm. Giấy phép và điều kiện sử dụng thuộc nhà phát hành tương ứng.
+- Quét file tạm không tự xóa; khi xác nhận xóa, file có thể bị xóa vĩnh viễn. Tinh chỉnh chỉ khôi phục được phần trạng thái ứng dụng đã lưu.
+- Nhật ký/báo cáo có thể có thông tin máy hoặc đường dẫn; xem lại nội dung trước khi chia sẻ.
 
-Chưa có bản tải xuống hoặc hướng dẫn build vì mã nguồn chưa được khởi tạo. Hướng dẫn sẽ được bổ sung cùng dự án chạy được. Không coi các mục trong lộ trình là chức năng đã hoàn thành.
+## Tác giả và đóng góp
 
-## Đóng góp và phản hồi
+**Triết Võ** — Trợ Lý Máy Tính.
 
-Khi repository được tạo, có thể dùng Issues để báo lỗi hoặc đề xuất tính năng. Khi báo lỗi, ghi phiên bản app, phiên bản Windows, bước tái hiện và nhật ký đã loại bỏ dữ liệu cá nhân.
+Khi báo lỗi, ghi phiên bản **v0.1.0**, Windows/build, kiến trúc, bước tái hiện, hành vi mong đợi và thông báo lỗi đầy đủ. Chỉ gửi log đã xem lại dữ liệu cá nhân. Không có cam kết mọi máy hoặc mọi gói phần mềm đều tương thích.
 
-## Giấy phép
-
-Chưa chọn giấy phép cho dự án. Việc công khai repository không đồng nghĩa với cấp quyền sử dụng, sửa đổi hoặc phân phối mã nguồn. Giấy phép và thông báo thư viện bên thứ ba sẽ được bổ sung trước khi phát hành.
-
+Giấy phép mã nguồn chưa được chọn trong gói nguồn đã đối chiếu. README này không tự cấp quyền tái sử dụng; chủ dự án cần quyết định và bổ sung `LICENSE` trước khi công bố điều khoản phân phối.
