@@ -1,0 +1,39 @@
+Checked against microsoft/winget-pkgs public repository directories on 2026-10-19.
+This confirms that the package-ID directories exist; it does not verify installation success, source synchronization, or architecture availability on an end-user machine.
+
+UniKey.UniKey: directory exists
+7zip.7zip: directory exists
+Mozilla.Firefox: directory exists
+Google.Chrome: directory exists
+Microsoft.Edge: directory exists
+Brave.Brave: directory exists
+VideoLAN.VLC: directory exists
+Notepad++.Notepad++: directory exists
+Microsoft.PowerToys: directory exists
+Microsoft.VisualStudioCode: directory exists
+SumatraPDF.SumatraPDF: directory exists
+TheDocumentFoundation.LibreOffice: directory exists
+Mozilla.Thunderbird: directory exists
+DigitalScholar.Zotero: directory exists
+Telegram.TelegramDesktop: directory exists
+Discord.Discord: directory exists
+Zoom.Zoom: directory exists
+Microsoft.Teams: directory exists
+OBSProject.OBSStudio: directory exists
+ShareX.ShareX: directory exists
+Audacity.Audacity: directory exists
+GIMP.GIMP: directory exists
+HandBrake.HandBrake: directory exists
+voidtools.Everything: directory exists
+WinSCP.WinSCP: directory exists
+WinMerge.WinMerge: directory exists
+CrystalDewWorld.CrystalDiskInfo: directory exists
+Rufus.Rufus: directory exists
+Git.Git: directory exists
+GitHub.GitHubDesktop: directory exists
+Python.Python.3.13: directory exists
+OpenJS.NodeJS.LTS: directory exists
+Microsoft.DotNet.DesktopRuntime.10: directory exists
+Microsoft.VCRedist.2015+.x64: directory exists
+Microsoft.VCRedist.2015+.x86: directory exists
+Microsoft.EdgeWebView2Runtime: directory exists

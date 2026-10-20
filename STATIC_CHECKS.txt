@@ -1,0 +1,24 @@
+XML OK: src/TroLyMayTinh/App.xaml
+XML OK: src/TroLyMayTinh/MainWindow.xaml
+XML OK: src/TroLyMayTinh/TroLyMayTinh.csproj
+XML OK: src/Toolkit.Core/Toolkit.Core.csproj
+XML OK: tests/Toolkit.Checks/Toolkit.Checks.csproj
+XML OK: src/TroLyMayTinh/app.manifest
+Localization OK: 73 XAML keys; no missing keys.
+Binding-name check OK: 91 names (not a WPF runtime test).
+Navigation OK: 12 pages and matching title/subtitle keys.
+Catalog JSON OK: 36 unique package IDs, 8 categories, required fields populated.
+Settings catalog OK: 38 unique allowlisted URIs.
+Project references and embedded JSON resources OK.
+Workflow YAML OK; screenshots included in Windows check artifact.
+Text style regression check OK: no global TextBlock foreground; explicit inherited control foreground.
+Palette contrast OK: dark body = 13.97:1 (solid base colors; not a rendered screenshot).
+Palette contrast OK: dark muted = 8.08:1 (solid base colors; not a rendered screenshot).
+Palette contrast OK: dark accent = 6.53:1 (solid base colors; not a rendered screenshot).
+Palette contrast OK: dark button = 5.68:1 (solid base colors; not a rendered screenshot).
+Palette contrast OK: light body = 15.81:1 (solid base colors; not a rendered screenshot).
+Palette contrast OK: light muted = 5.93:1 (solid base colors; not a rendered screenshot).
+Palette contrast OK: light accent = 5.68:1 (solid base colors; not a rendered screenshot).
+Palette contrast OK: light button = 5.68:1 (solid base colors; not a rendered screenshot).
+All 36 package-ID directories checked against microsoft/winget-pkgs; see CATALOG_VERIFICATION.txt. Installation not tested.
+NOT RUN: dotnet build, C# checks, WPF runtime/screenshot checks, CIM, WinGet installation or Windows integration; SDK and Windows unavailable.

@@ -1,0 +1,1 @@
+PASS: 12 pages, 2 languages, 2 themes; button/navigation text inheritance; catalogs and search/presets; no WPF binding errors. No maintenance or installation commands invoked. Screenshots in artifacts/ui-checks.

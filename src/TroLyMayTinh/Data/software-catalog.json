@@ -1,0 +1,401 @@
+[
+  {
+    "Name": "UniKey",
+    "Id": "UniKey.UniKey",
+    "Publisher": "Phạm Kim Long",
+    "DescriptionVi": "Bộ gõ tiếng Việt, Telex / VNI",
+    "DescriptionEn": "Vietnamese input, Telex / VNI",
+    "Category": "vietnamese",
+    "DetectionNames": [
+      "UniKey"
+    ]
+  },
+  {
+    "Name": "7-Zip",
+    "Id": "7zip.7zip",
+    "Publisher": "Igor Pavlov",
+    "DescriptionVi": "Nén và giải nén tệp",
+    "DescriptionEn": "File compression and extraction",
+    "Category": "utilities",
+    "DetectionNames": [
+      "7-Zip"
+    ]
+  },
+  {
+    "Name": "Mozilla Firefox",
+    "Id": "Mozilla.Firefox",
+    "Publisher": "Mozilla",
+    "DescriptionVi": "Trình duyệt web",
+    "DescriptionEn": "Web browser",
+    "Category": "browser",
+    "DetectionNames": [
+      "Mozilla Firefox"
+    ]
+  },
+  {
+    "Name": "Google Chrome",
+    "Id": "Google.Chrome",
+    "Publisher": "Google",
+    "DescriptionVi": "Trình duyệt web",
+    "DescriptionEn": "Web browser",
+    "Category": "browser",
+    "DetectionNames": [
+      "Google Chrome"
+    ]
+  },
+  {
+    "Name": "Microsoft Edge",
+    "Id": "Microsoft.Edge",
+    "Publisher": "Microsoft",
+    "DescriptionVi": "Trình duyệt web",
+    "DescriptionEn": "Web browser",
+    "Category": "browser",
+    "DetectionNames": [
+      "Microsoft Edge"
+    ]
+  },
+  {
+    "Name": "Brave",
+    "Id": "Brave.Brave",
+    "Publisher": "Brave Software",
+    "DescriptionVi": "Trình duyệt chú trọng quyền riêng tư",
+    "DescriptionEn": "Privacy-focused browser",
+    "Category": "browser",
+    "DetectionNames": [
+      "Brave"
+    ]
+  },
+  {
+    "Name": "VLC media player",
+    "Id": "VideoLAN.VLC",
+    "Publisher": "VideoLAN",
+    "DescriptionVi": "Phát video và âm thanh",
+    "DescriptionEn": "Video and audio player",
+    "Category": "media",
+    "DetectionNames": [
+      "VLC media player"
+    ]
+  },
+  {
+    "Name": "Notepad++",
+    "Id": "Notepad++.Notepad++",
+    "Publisher": "Don Ho",
+    "DescriptionVi": "Soạn thảo văn bản và mã nguồn",
+    "DescriptionEn": "Text and source code editor",
+    "Category": "developer",
+    "DetectionNames": [
+      "Notepad++"
+    ]
+  },
+  {
+    "Name": "PowerToys",
+    "Id": "Microsoft.PowerToys",
+    "Publisher": "Microsoft",
+    "DescriptionVi": "Bộ tiện ích hỗ trợ làm việc",
+    "DescriptionEn": "Productivity utilities",
+    "Category": "utilities",
+    "DetectionNames": [
+      "PowerToys"
+    ]
+  },
+  {
+    "Name": "Visual Studio Code",
+    "Id": "Microsoft.VisualStudioCode",
+    "Publisher": "Microsoft",
+    "DescriptionVi": "Trình soạn thảo mã nguồn",
+    "DescriptionEn": "Code editor",
+    "Category": "developer",
+    "DetectionNames": [
+      "Microsoft Visual Studio Code"
+    ]
+  },
+  {
+    "Name": "SumatraPDF",
+    "Id": "SumatraPDF.SumatraPDF",
+    "Publisher": "SumatraPDF contributors",
+    "DescriptionVi": "Đọc tài liệu PDF gọn nhẹ",
+    "DescriptionEn": "Lightweight PDF reader",
+    "Category": "office",
+    "DetectionNames": [
+      "SumatraPDF"
+    ]
+  },
+  {
+    "Name": "LibreOffice",
+    "Id": "TheDocumentFoundation.LibreOffice",
+    "Publisher": "The Document Foundation",
+    "DescriptionVi": "Soạn thảo văn bản, bảng tính và trình chiếu",
+    "DescriptionEn": "Documents, spreadsheets and presentations",
+    "Category": "office",
+    "DetectionNames": [
+      "LibreOffice"
+    ]
+  },
+  {
+    "Name": "Thunderbird",
+    "Id": "Mozilla.Thunderbird",
+    "Publisher": "Mozilla",
+    "DescriptionVi": "Quản lý thư điện tử",
+    "DescriptionEn": "Email client",
+    "Category": "office",
+    "DetectionNames": [
+      "Mozilla Thunderbird"
+    ]
+  },
+  {
+    "Name": "Zotero",
+    "Id": "DigitalScholar.Zotero",
+    "Publisher": "Corporation for Digital Scholarship",
+    "DescriptionVi": "Quản lý tài liệu và trích dẫn",
+    "DescriptionEn": "Research and citation manager",
+    "Category": "office",
+    "DetectionNames": [
+      "Zotero"
+    ]
+  },
+  {
+    "Name": "Telegram",
+    "Id": "Telegram.TelegramDesktop",
+    "Publisher": "Telegram",
+    "DescriptionVi": "Nhắn tin và trao đổi tệp",
+    "DescriptionEn": "Messaging and file sharing",
+    "Category": "communication",
+    "DetectionNames": [
+      "Telegram Desktop"
+    ]
+  },
+  {
+    "Name": "Discord",
+    "Id": "Discord.Discord",
+    "Publisher": "Discord",
+    "DescriptionVi": "Trò chuyện và cộng đồng",
+    "DescriptionEn": "Voice and text communities",
+    "Category": "communication",
+    "DetectionNames": [
+      "Discord"
+    ]
+  },
+  {
+    "Name": "Zoom Workplace",
+    "Id": "Zoom.Zoom",
+    "Publisher": "Zoom",
+    "DescriptionVi": "Họp trực tuyến",
+    "DescriptionEn": "Video meetings",
+    "Category": "communication",
+    "DetectionNames": [
+      "Zoom Workplace",
+      "Zoom"
+    ]
+  },
+  {
+    "Name": "Microsoft Teams",
+    "Id": "Microsoft.Teams",
+    "Publisher": "Microsoft",
+    "DescriptionVi": "Họp và cộng tác",
+    "DescriptionEn": "Meetings and collaboration",
+    "Category": "communication",
+    "DetectionNames": [
+      "Microsoft Teams"
+    ]
+  },
+  {
+    "Name": "OBS Studio",
+    "Id": "OBSProject.OBSStudio",
+    "Publisher": "OBS Project",
+    "DescriptionVi": "Quay màn hình và phát trực tiếp",
+    "DescriptionEn": "Recording and live streaming",
+    "Category": "media",
+    "DetectionNames": [
+      "OBS Studio"
+    ]
+  },
+  {
+    "Name": "ShareX",
+    "Id": "ShareX.ShareX",
+    "Publisher": "ShareX Team",
+    "DescriptionVi": "Chụp ảnh và ghi màn hình",
+    "DescriptionEn": "Screen capture and recording",
+    "Category": "media",
+    "DetectionNames": [
+      "ShareX"
+    ]
+  },
+  {
+    "Name": "Audacity",
+    "Id": "Audacity.Audacity",
+    "Publisher": "Audacity Team",
+    "DescriptionVi": "Thu và chỉnh sửa âm thanh",
+    "DescriptionEn": "Audio recording and editing",
+    "Category": "media",
+    "DetectionNames": [
+      "Audacity"
+    ]
+  },
+  {
+    "Name": "GIMP",
+    "Id": "GIMP.GIMP",
+    "Publisher": "GIMP Team",
+    "DescriptionVi": "Chỉnh sửa hình ảnh",
+    "DescriptionEn": "Image editor",
+    "Category": "media",
+    "DetectionNames": [
+      "GIMP"
+    ]
+  },
+  {
+    "Name": "HandBrake",
+    "Id": "HandBrake.HandBrake",
+    "Publisher": "HandBrake Team",
+    "DescriptionVi": "Chuyển đổi video",
+    "DescriptionEn": "Video transcoder",
+    "Category": "media",
+    "DetectionNames": [
+      "HandBrake"
+    ]
+  },
+  {
+    "Name": "Everything",
+    "Id": "voidtools.Everything",
+    "Publisher": "voidtools",
+    "DescriptionVi": "Tìm kiếm tên tệp nhanh",
+    "DescriptionEn": "Fast file-name search",
+    "Category": "utilities",
+    "DetectionNames": [
+      "Everything"
+    ]
+  },
+  {
+    "Name": "WinSCP",
+    "Id": "WinSCP.WinSCP",
+    "Publisher": "Martin Prikryl",
+    "DescriptionVi": "Truyền tệp qua SFTP và FTP",
+    "DescriptionEn": "SFTP and FTP file transfer",
+    "Category": "utilities",
+    "DetectionNames": [
+      "WinSCP"
+    ]
+  },
+  {
+    "Name": "WinMerge",
+    "Id": "WinMerge.WinMerge",
+    "Publisher": "WinMerge Team",
+    "DescriptionVi": "So sánh tệp và thư mục",
+    "DescriptionEn": "Compare files and folders",
+    "Category": "utilities",
+    "DetectionNames": [
+      "WinMerge"
+    ]
+  },
+  {
+    "Name": "CrystalDiskInfo",
+    "Id": "CrystalDewWorld.CrystalDiskInfo",
+    "Publisher": "Crystal Dew World",
+    "DescriptionVi": "Xem thông tin ổ đĩa qua tiện ích riêng",
+    "DescriptionEn": "Disk information utility",
+    "Category": "utilities",
+    "DetectionNames": [
+      "CrystalDiskInfo"
+    ]
+  },
+  {
+    "Name": "Rufus",
+    "Id": "Rufus.Rufus",
+    "Publisher": "Pete Batard",
+    "DescriptionVi": "Tạo USB khởi động, mở dưới dạng công cụ riêng",
+    "DescriptionEn": "Bootable USB creation as a separate tool",
+    "Category": "utilities",
+    "DetectionNames": [
+      "Rufus"
+    ]
+  },
+  {
+    "Name": "Git",
+    "Id": "Git.Git",
+    "Publisher": "Git contributors",
+    "DescriptionVi": "Quản lý phiên bản mã nguồn",
+    "DescriptionEn": "Version control",
+    "Category": "developer",
+    "DetectionNames": [
+      "Git version"
+    ]
+  },
+  {
+    "Name": "GitHub Desktop",
+    "Id": "GitHub.GitHubDesktop",
+    "Publisher": "GitHub",
+    "DescriptionVi": "Quản lý Git bằng giao diện",
+    "DescriptionEn": "Git desktop interface",
+    "Category": "developer",
+    "DetectionNames": [
+      "GitHub Desktop"
+    ]
+  },
+  {
+    "Name": "Python 3.13",
+    "Id": "Python.Python.3.13",
+    "Publisher": "Python Software Foundation",
+    "DescriptionVi": "Môi trường lập trình Python nhánh 3.13",
+    "DescriptionEn": "Python 3.13 programming environment",
+    "Category": "developer",
+    "DetectionNames": [
+      "Python 3.13"
+    ]
+  },
+  {
+    "Name": "Node.js LTS",
+    "Id": "OpenJS.NodeJS.LTS",
+    "Publisher": "OpenJS Foundation",
+    "DescriptionVi": "Môi trường JavaScript nhánh LTS",
+    "DescriptionEn": "JavaScript LTS runtime",
+    "Category": "developer",
+    "DetectionNames": [
+      "Node.js"
+    ]
+  },
+  {
+    "Name": ".NET Desktop Runtime 10",
+    "Id": "Microsoft.DotNet.DesktopRuntime.10",
+    "Publisher": "Microsoft",
+    "DescriptionVi": "Thành phần chạy ứng dụng desktop .NET 10",
+    "DescriptionEn": "Runtime for .NET 10 desktop apps",
+    "Category": "runtime",
+    "DetectionNames": [
+      "Microsoft Windows Desktop Runtime - 10."
+    ]
+  },
+  {
+    "Name": "Visual C++ 2015+ x64",
+    "Id": "Microsoft.VCRedist.2015+.x64",
+    "Publisher": "Microsoft",
+    "DescriptionVi": "Thư viện Visual C++ dành cho ứng dụng x64",
+    "DescriptionEn": "Visual C++ libraries for x64 apps",
+    "Category": "runtime",
+    "DetectionNames": [
+      "Microsoft Visual C++ 2015-2022 Redistributable (x64)",
+      "Microsoft Visual C++ v14 Redistributable (x64)"
+    ]
+  },
+  {
+    "Name": "Visual C++ 2015+ x86",
+    "Id": "Microsoft.VCRedist.2015+.x86",
+    "Publisher": "Microsoft",
+    "DescriptionVi": "Thư viện Visual C++ dành cho ứng dụng x86",
+    "DescriptionEn": "Visual C++ libraries for x86 apps",
+    "Category": "runtime",
+    "DetectionNames": [
+      "Microsoft Visual C++ 2015-2022 Redistributable (x86)",
+      "Microsoft Visual C++ v14 Redistributable (x86)"
+    ]
+  },
+  {
+    "Name": "WebView2 Runtime",
+    "Id": "Microsoft.EdgeWebView2Runtime",
+    "Publisher": "Microsoft",
+    "DescriptionVi": "Thành phần hiển thị nội dung web trong ứng dụng",
+    "DescriptionEn": "Embedded web content runtime",
+    "Category": "runtime",
+    "DetectionNames": [
+      "Microsoft Edge WebView2 Runtime"
+    ]
+  }
+]
